@@ -1,8 +1,8 @@
-# Solicitar 10 números al usuario
-numeros <- numeric(10)
+# Solicitar 3 números al usuario
+numeros <- numeric(3)
 
-cat("Introduce 10 números:\n")
-for (i in 1:10) {
+cat("Introduce 3 números:\n")
+for (i in 1:3) {
   numeros[i] <- as.numeric(readline(paste("Número", i, ": ")))
 }
 
